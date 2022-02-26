@@ -63,7 +63,7 @@ function showExperience() {
       currentItem = 0;
     }
     const item = experience[currentItem];
-    img.src = item.img;
+    //img.src = item.img;
     currentItem++;
   }, 3000);
 }
