@@ -23,21 +23,37 @@ const projects = [
     Githublink: "https://github.com/Axelgoris99/QR_Embed",
   },
   {
-    title: "QR Code Generator with embedded image",
-    cardImage: "assets/images/project-page/equi.jpg",
-    description: "Responsible for developping the main QR-Code Generator and embedding images using OpenCV.",
+    title: "Escape Game VR",
+    cardImage: "assets/images/project-page/escape.jpg",
+    description: "Setting up a schedule and monitoring the overall progress + individual monitoring (group of 6). Development of interactions with a leap motion in VR",
     tagimg:"",
-    Previewlink: "https://github.com/Axelgoris99/QR_Embed",
-    Githublink: "https://github.com/Axelgoris99/QR_Embed",
+    Previewlink: "https://youtu.be/WkhrY3P3fDU",
+    Githublink: "https://github.com/Axelgoris99/Chemistry-Lab",
   },
 
   {
-    title: "QR Code Generator with embedded image",
-    cardImage: "assets/images/project-page/equi.jpg",
-    description: "Responsible for developping the main QR-Code Generator and embedding images using OpenCV.",
+    title: "Automated Rigging",
+    cardImage: "assets/images/project-page/rig.png",
+    description: "Automatic rigging of a human skeleton in two ways: with deep learning and with a more predefined approach.",
     tagimg:"",
-    Previewlink: "https://github.com/Axelgoris99/QR_Embed",
-    Githublink: "https://github.com/Axelgoris99/QR_Embed",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "Spotify Redesign",
+    cardImage: "assets/images/project-page/spotify.png",
+    description: "Redesign of the Spotify interface to make it easier for older people to use",
+    tagimg:"",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "Automated Webcam Switcher",
+    cardImage: "assets/images/project-page/webcam.png",
+    description: "Creation of software to automatically change the webcam depending on where the person is looking. Use of an AI model for orientation recognition",
+    tagimg:"",
+    Previewlink: "",
+    Githublink: "",
   },
 
 
@@ -55,7 +71,7 @@ const showCards = () => {
             <div class="data">
               <div class="content">
               <div>
-                <h1 class="title"><a href="#"> <font size="+3">${title}</font></a></h1>
+                <h1><a href="#"> <font size="+3" color="#ffffff">${title}</font></a></h1>
                 <a href="${Previewlink}" target= "_blank" class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" viewBox="0 0 30 28" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-monitor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></a>
                 <a href="${Githublink}" target = "_blank" class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" viewBox="0 0 30 28" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
                 <br>${description}
