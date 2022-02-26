@@ -62,10 +62,22 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "<a href='https://github.com/Axelgoris99/QR_Embed' target='_blank'>QR Code Generator </a>",
-    cardImage: "assets/images/experience-page/equi.jpg",
+    title: "<a href='https://www.forumatlantique.fr/' target='_blank'>Treasurer - Forum Atlantique</a>",
+    cardImage: "assets/images/experience-page/fa.png",
     description:
-      "Responsible for developping the main QR-Code Generator and embedding images using OpenCV.",
+      "Do the accounts, set the prices. Establishing and respecting the provisional budget. Analyse variances, payments and reimbursements.",
+  },
+  {
+    title: "<a href='https://www.vibracoustic.com/en/' target='_blank'>Vibracoustic consulting</a>",
+    cardImage: "assets/images/experience-page/vibra.jpg",
+    description:
+      "Set up a strategy and an adapted planning. Monitor the progress of the project. Communicate clearly and accurately with the company.",
+  },
+  {
+    title: "<a href='https://enactus.fr/' target='_blank'>Team Leader - Enactus Nantes</a>",
+    cardImage: "assets/images/experience-page/enactus.png",
+    description:
+      "Organising recruitment for existing projects. Assist in the creation and emergence of new projects. Monitoring different projects and guiding them in the long term.",
   },
 ];
 

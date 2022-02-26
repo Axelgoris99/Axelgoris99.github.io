@@ -507,7 +507,7 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 7rem;
+    padding-bottom: 2rem;
     font-size: 2rem;
   }
 }
@@ -928,4 +928,8 @@ a.socialicon {
 .socialicon.kaggle:after {
   background-color: #41aff3;
   box-shadow: var(--kaggle);
+}
+
+.title2{
+  float
 }
