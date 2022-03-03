@@ -125,24 +125,6 @@ const mentor = [
     desp: "We created a small game where you need to destroy as many things as possible. The Theme was : Let There Be Chaos. Unfortunately we only had 24h over the full week to participate, leading to a very small implementation.",
     link: "https://axelgoris99.itch.io/back-in-a-minute",
   },
-
-  {
-    title: "Area Of Effect Game Jam 2021",
-    subtitle: "Participant",
-    image: "assets/images/experience-page/lifeAttack.png",
-    desp: "We created a game where you need to collect letters by killing them and then use the letters in a puzzle way where you must fill the space. The Theme was : Signs of Life. We finished 12/41 which is good!",
-    link: "https://axelgoris99.itch.io/life-attack",
-  },
-  {
-    title: "Area Of Effect Game Jam 2021",
-    subtitle: "Participant",
-    image: "assets/images/experience-page/lifeAttack.png",
-    desp: "We created a game where you need to collect letters by killing them and then use the letters in a puzzle way where you must fill the space. The Theme was : Signs of Life. We finished 12/41 which is good!",
-    link: "https://axelgoris99.itch.io/life-attack",
-  },
-
-  
-  
   
 ];
 
