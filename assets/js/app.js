@@ -133,15 +133,14 @@ let footer = $(`
              <div class="form-header">
                 <h6 class="display">Get in Touch</h6>
               </div>
-                <form>
-                  <form name="form1" action="https://formcarry.com/s/dWcrnmcrQBx"  method="POST" accept-charset="UTF-8" >
+                <form name="form1" action="https://formcarry.com/s/dWcrnmcrQBx"  method="POST" accept-charset="UTF-8">
                   <input id="name" type="text" name="field1" placeholder="Your Name" required/>
                   <input id="email" type="email" name="field2" placeholder="Email Address"    required/>
                   
                   <textarea id="textArea" name="field3" placeholder="Type your Message" required></textarea>
                
                   <div id="main">
-                  <button  id="lnch" type="button"   value="Send" >Send</button><div id="lnch_btn"><i class="fas fa-space-shuttle"></i></div>
+                  <button  id="lnch" type="submit"   value="Send" name="send" >Send</button><div id="lnch_btn"><i class="fas fa-space-shuttle"></i></div>
                   </div>
                 </form>
              </div>
