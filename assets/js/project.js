@@ -50,7 +50,7 @@ const projects = [
   {
     title: "Automated Webcam Switcher",
     cardImage: "assets/images/project-page/webcam.png",
-    description: "Creation of software to automatically change the webcam depending on where the person is looking. Use of an AI model for orientation recognition",
+    description: "Creation of software to automatically change the webcam depending on where the person is looking using AI.",
     tagimg:"",
     Previewlink: "",
     Githublink: "",

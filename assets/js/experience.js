@@ -25,6 +25,7 @@ const exp = [
     time: "(September 2014 - Present)",
     desp: "<li>Train people from 4 years old to 75 years old in a group of 20 persons.</li><li>Participate and organise national and international competitions or demonstrations.</li>",
   },
+  
 ];
 
 const showCards2 = () => {
