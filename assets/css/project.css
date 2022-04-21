@@ -40,6 +40,9 @@ body {
 }
 
 /*For Changing background color of body according to theme*/
+.my_experience {
+  color: #4e00bb;
+}
 
 .light-mode-button {
   background: 0;
@@ -882,7 +885,7 @@ a.socialicon {
   justify-content: center;
   flex-flow: row wrap;
 }
-.socialicon{
+.socialicon {
   display: flex;
   position: relative;
   overflow: hidden;
@@ -910,8 +913,8 @@ a.socialicon {
   transition: var(--trans-props);
 }
 
-.socialicon.kaggle{
-  color:var(--col-icon-kaggle);
+.socialicon.kaggle {
+  color: var(--col-icon-kaggle);
 }
 
 .socialicon:after {
@@ -922,10 +925,59 @@ a.socialicon {
   transform: translate(0, var(--link-size));
   border-radius: 50%;
   transition: var(--trans-props);
-  
 }
 
 .socialicon.kaggle:after {
   background-color: #41aff3;
   box-shadow: var(--kaggle);
+}
+
+/*=========== CARDS =========== */
+.container2 {
+  display: flex;
+  margin-left: 5vw;
+  width: 90vw;
+}
+
+.panel2 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 50px;
+  flex: 0.5;
+  position: relative;
+  transition: flex 0.5s ease-in;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.panel2 h3 {
+  font-size: xx-large;
+  color: black;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  opacity: 0;
+}
+
+.panel2.active {
+  flex: 5;
+}
+
+.panel2.active h3 {
+  opacity: 1;
+  transition: opacity 0.4s ease-in 0.4s;
+}
+
+@media (max-width: 480px) {
+  .container2 {
+    width: 100vw;
+  }
+
+  .panel2:nth-of-type(4),
+  .panel2:nth-of-type(5) {
+    display: none;
+  }
 }
