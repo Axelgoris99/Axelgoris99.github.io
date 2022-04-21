@@ -106,7 +106,7 @@ const visuals = [
     cardImage: "assets/images/project-page/iso.png",
   },
   {
-    title: "Piano",
+    title: "Piano - Available on unity Asset Store",
     cardImage: "assets/images/project-page/piano.png",
   },
   {
@@ -136,6 +136,37 @@ const showVisuals = () => {
   visualcards.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showVisuals);
+
+const videos = [
+  {
+    title: "~ Droplets Infinity ~",
+    cardVideo: "assets/images/project-page/funRender.mp4",
+  },
+  {
+    title: "~ Lights in the wood ~",
+    cardVideo: "assets/images/project-page/light.mp4",
+  },
+  {
+    title: "~ World's end ~",
+    cardVideo: "assets/images/project-page/volcan.mp4",
+  },
+];
+const videoCards = document.querySelector(".videoCont");
+// function for rendering project cards data
+const showVideos = () => {
+  let output = "";
+  videos.forEach(({ title, cardVideo }) => {
+    output += `       
+      <div class="panel2">
+      <video controls width="250">
+      <source src=${cardVideo}
+      type="video/mp4">
+        <h3>${title}</h3>
+      </div>`;
+  });
+  videoCards.innerHTML = output;
+};
+document.addEventListener("DOMContentLoaded", showVideos);
 
 function myFunction() {
   // Declare variables
