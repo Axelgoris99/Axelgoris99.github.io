@@ -9,7 +9,7 @@ const exp = [
     cardImage: "assets/images/experience-page/BioAtao.png",
     place: "BioAtao",
     time: "(March - April 2022)",
-    desp: "<li>Worked on the design a website to align with the client goals.</li><li>Develop the frontend using HTML/CSS/JS according to the design</li><li>Code the backend in Django so that it is easy for the user to modify, thanks to an administration panel.</li><li><a href='' target='_blank'>Not deployed yet.</li>",
+    desp: "<li>Worked on the design a website to align with the client goals.</li><li>Develop the frontend using HTML/CSS/JS according to the design</li><li>Code the backend in Django so that it is easy for the user to modify, thanks to an administration panel.</li><li><a href='' target='_blank'>Not deployed yet.</a></li>",
   },
   {
     title: "Engineer Internship - Mixed reality Varjo XR3",
