@@ -1,7 +1,7 @@
 AOS.init();
 
 // MOOCs Cards
-
+//test
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
