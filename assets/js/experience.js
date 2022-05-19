@@ -5,6 +5,13 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Web Designer & programmer",
+    cardImage: "assets/images/experience-page/BioAtao.png",
+    place: "BioAtao",
+    time: "(March - April 2022)",
+    desp: "<li>Worked on the design a website to align with the client goals.</li><li>Develop the frontend using HTML/CSS/JS according to the design</li><li>Code the backend in Django so that it is easy for the user to modify, thanks to an administration panel.</li><li><a href='' target='_blank'>Not deployed yet.</li>",
+  },
+  {
     title: "Engineer Internship - Mixed reality Varjo XR3",
     cardImage: "assets/images/experience-page/clarte.png",
     place: "Clarte",
@@ -25,7 +32,6 @@ const exp = [
     time: "(September 2014 - Present)",
     desp: "<li>Train people from 4 years old to 75 years old in a group of 20 persons.</li><li>Participate and organise national and international competitions or demonstrations.</li>",
   },
-  
 ];
 
 const showCards2 = () => {
@@ -63,19 +69,22 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "<a href='https://www.forumatlantique.fr/' target='_blank'>Treasurer - Forum Atlantique</a>",
+    title:
+      "<a href='https://www.forumatlantique.fr/' target='_blank'>Treasurer - Forum Atlantique</a>",
     cardImage: "assets/images/experience-page/fa.png",
     description:
       "Do the accounts, set the prices. Establishing and respecting the provisional budget. Analyse variances, payments and reimbursements.",
   },
   {
-    title: "<a href='https://www.vibracoustic.com/en/' target='_blank'>Vibracoustic consulting</a>",
+    title:
+      "<a href='https://www.vibracoustic.com/en/' target='_blank'>Vibracoustic consulting</a>",
     cardImage: "assets/images/experience-page/vibra.jpg",
     description:
       "Set up a strategy and an adapted planning. Monitor the progress of the project. Communicate clearly and accurately with the company.",
   },
   {
-    title: "<a href='https://enactus.fr/' target='_blank'>Team Leader - Enactus Nantes</a>",
+    title:
+      "<a href='https://enactus.fr/' target='_blank'>Team Leader - Enactus Nantes</a>",
     cardImage: "assets/images/experience-page/enactus.png",
     description:
       "Organising recruitment for existing projects. Assist in the creation and emergence of new projects. Monitoring different projects and guiding them in the long term.",
@@ -117,7 +126,7 @@ const mentor = [
     subtitle: "Team Leader",
     image: "assets/images/experience-page/lapine.png",
     desp: "We created an Augmented Reality app with a book for children as a 36h hackathon using Unity.",
-    link:"#",
+    link: "#",
   },
   {
     title: "Brackeys Game Jam 2021-2",
@@ -126,7 +135,6 @@ const mentor = [
     desp: "We created a small game where you need to destroy as many things as possible. The Theme was : Let There Be Chaos. Unfortunately we only had 24h over the full week to participate, leading to a very small implementation.",
     link: "https://axelgoris99.itch.io/back-in-a-minute",
   },
-  
 ];
 
 const showCards3 = () => {

@@ -6,6 +6,14 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
+    title: "Dungeon & Dragon Character Generator",
+    cardImage: "assets/images/project-page/dd_logo.png",
+    description: "D&D Character Generator coded with Vue for the frontend and Firebase for the backend. Focused on User Experience!",
+    tagimg: "",
+    Previewlink: "https://dd-gen.web.app/",
+    Githublink: "https://github.com/Axelgoris99/DD_Gen",
+  },
+  {
     title: "Recipe Ingredient Parser",
     cardImage: "assets/images/project-page/recipe.jpg",
     description: "Recipe Ingredient Parser built using JavaScript.",
@@ -140,7 +148,7 @@ document.addEventListener("DOMContentLoaded", showVisuals);
 const videos = [
   {
     title: "~ Droplets Infinity ~",
-    cardVideo: "assets/images/project-page/funRender.mp4",
+    cardVideo: "assets/images/project-page/FunRender.mp4",
   },
   {
     title: "~ Lights in the wood ~",
