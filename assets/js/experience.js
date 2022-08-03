@@ -5,11 +5,18 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Web Designer",
+    cardImage: "assets/images/experience-page/NeoconceptVrd.jpg",
+    place: "Neoconcept VRD",
+    time: "(June 2022)",
+    desp: "<li>Worked on the design of a website to align with the client goals.<li><a href='http://www.neoconceptvrd.fr/' target='_blank'>Site Neoconcept VRD.</a></li>",
+  },
+  {
     title: "Web Designer & programmer",
     cardImage: "assets/images/experience-page/BioAtao.png",
     place: "BioAtao",
     time: "(March - April 2022)",
-    desp: "<li>Worked on the design a website to align with the client goals.</li><li>Develop the frontend using HTML/CSS/JS according to the design</li><li>Code the backend in Django so that it is easy for the user to modify, thanks to an administration panel.</li><li><a href='' target='_blank'>Not deployed yet.</a></li>",
+    desp: "<li>Worked on the design a website to align with the client goals.</li><li>Develop the frontend using HTML/CSS/JS according to the design</li><li>Code the backend in Django so that it is easy for the user to modify, thanks to an administration panel.</li><li><a href='http://bioduportzic.bzh/' target='_blank'>Site Bio Du Portzic</a></li>",
   },
   {
     title: "Engineer Internship - Mixed reality Varjo XR3",
@@ -70,22 +77,33 @@ const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
     title:
-      "<a href='https://www.forumatlantique.fr/' target='_blank'>Treasurer - Forum Atlantique</a>",
+      "Video & DJ - Gala ISK </a>",
+    cardImage: "assets/images/experience-page/karate.png",
+    link: "https://www.youtube.com/watch?v=iBh59-Dguk4",
+    description:
+      "I was mixing and playing the right song, managing the lights and the video capture. After it, I was in charge of filtering the photos and creating the videos.",
+  },
+  {
+    title:
+      "Treasurer - Forum Atlantique</a>",
     cardImage: "assets/images/experience-page/fa.png",
+    link: "https://www.forumatlantique.fr/",
     description:
       "Do the accounts, set the prices. Establishing and respecting the provisional budget. Analyse variances, payments and reimbursements.",
   },
   {
     title:
-      "<a href='https://www.vibracoustic.com/en/' target='_blank'>Vibracoustic consulting</a>",
+      "Vibracoustic consulting</a>",
     cardImage: "assets/images/experience-page/vibra.jpg",
+    link: "href='https://www.vibracoustic.com/en/",
     description:
       "Set up a strategy and an adapted planning. Monitor the progress of the project. Communicate clearly and accurately with the company.",
   },
   {
     title:
-      "<a href='https://enactus.fr/' target='_blank'>Team Leader - Enactus Nantes</a>",
+      "Team Leader - Enactus Nantes</a>",
     cardImage: "assets/images/experience-page/enactus.png",
+    link: "https://enactus.fr/",
     description:
       "Organising recruitment for existing projects. Assist in the creation and emergence of new projects. Monitoring different projects and guiding them in the long term.",
   },
@@ -94,9 +112,9 @@ const volunteershipcards = [
 const showCards = () => {
   let output = "";
   volunteershipcards.forEach(
-    ({ title, cardImage, description }) =>
+    ({ title, cardImage, link, description }) =>
       (output += `        
-      <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
+      <div onclick="window.open('${link}')" target="_blank" class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
       
       <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
       <div class="content">

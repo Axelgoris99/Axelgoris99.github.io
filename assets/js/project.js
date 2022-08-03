@@ -6,6 +6,14 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
+    title: "Karate Techniques Learner",
+    cardImage: "assets/images/project-page/karate.png",
+    description: "Karate Kihon Generator with quizz and glossary for learning. Got a profile as well! Coded with Vue + Firebase!",
+    tagimg: "",
+    Previewlink: " https://karate-trainer79.web.app/",
+    Githublink: "https://github.com/Axelgoris99/karateTrainer",
+  },
+  {
     title: "Dungeon & Dragon Character Generator",
     cardImage: "assets/images/project-page/dd_logo.png",
     description: "D&D Character Generator coded with Vue for the frontend and Firebase for the backend. Focused on User Experience!",
@@ -13,6 +21,25 @@ const projects = [
     Previewlink: "https://dd-gen.web.app/",
     Githublink: "https://github.com/Axelgoris99/DD_Gen",
   },
+  {
+    title: "Spotify Redesign",
+    cardImage: "assets/images/project-page/spotify.png",
+    description:
+      "Redesign of the Spotify interface to make it easier for older people to use",
+    tagimg: "",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "Automated Webcam Switcher",
+    cardImage: "assets/images/project-page/webcam.png",
+    description:
+      "Creation of software to automatically change the webcam depending on where the person is looking using AI.",
+    tagimg: "",
+    Previewlink: "",
+    Githublink: "",
+  },
+  
   {
     title: "Recipe Ingredient Parser",
     cardImage: "assets/images/project-page/recipe.jpg",
@@ -47,24 +74,6 @@ const projects = [
     cardImage: "assets/images/project-page/rig.png",
     description:
       "Automatic rigging of a human skeleton in two ways: with deep learning and with a more predefined approach.",
-    tagimg: "",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "Spotify Redesign",
-    cardImage: "assets/images/project-page/spotify.png",
-    description:
-      "Redesign of the Spotify interface to make it easier for older people to use",
-    tagimg: "",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "Automated Webcam Switcher",
-    cardImage: "assets/images/project-page/webcam.png",
-    description:
-      "Creation of software to automatically change the webcam depending on where the person is looking using AI.",
     tagimg: "",
     Previewlink: "",
     Githublink: "",
